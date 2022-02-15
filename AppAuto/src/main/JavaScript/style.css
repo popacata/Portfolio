@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: yellowgreen;
+
+    padding: 20px;
+}
+
+.zona1, .zona2 {
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+div div {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border-color: rgb(129, 220, 226);
+    border-radius: 20px;
+    background-color: orange;
+}
+
+.rezultate, .insert_zon{
+    padding:10px;
+    border-color: orangered;
+    color: olivedrab;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    outline: black;
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h3{
+    align-self: flex-start;
+    margin-left: 40px;
+    margin-top: 10px ;
+}
+
+.zona2 {
+    background-color: cyan;
+}
+
+.insert_zon div{
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.insert_zon div div {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.insert_zon div p{
+    color: black;
+}
+
